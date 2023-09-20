@@ -77,6 +77,7 @@ final class ViewController: UIViewController, UITextFieldDelegate {
         textField.keyboardType = .numberPad
         textField.autocapitalizationType = .none
         textField.returnKeyType = .done
+        textField.textContentType = .oneTimeCode
         textField.textAlignment = .center
         textField.delegate = self
         textField.deletionDelegate = deleteAction
